@@ -151,10 +151,10 @@ a{
     padding: 1rem 0 1rem 0;
 }
 
-/* .sticky-nav-icons img{
+.sticky-nav-icons img{
     height: 1.5rem;
     width: 1.5rem;
-} */
+}
 
 .sticky-nav-icons {
     margin-left: 0.75rem;
@@ -205,6 +205,95 @@ a{
 
 .card-information{
     font: size 0.85rem; ;
-    opacity: 0.5;
+    opacity: 1;
     background-color: #232323;
+}
+
+
+/* for footer  */
+
+.footer{
+    width: 100%;
+    /* background-color: #121212; */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+
+}
+
+.line{
+    width:90%;
+    height:5px;
+    border-top: 1px solid #fff;
+    opacity: 1;
+}
+
+
+
+/* music player  */
+
+
+.music-player{
+    display: flex; 
+    /* background-color:lightblue;  */
+    justify-content: center;
+    align-items: center;
+}
+
+.album{
+    width: 25px;
+    background-color: yellow;
+}
+
+.players{
+    width:50%;
+    background-color: antiquewhite;
+}
+.controls{
+    width: 25%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity:0.7;
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    height: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px;
 }
